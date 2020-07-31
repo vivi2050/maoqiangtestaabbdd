@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 brbrbr
 2222
-=======
 mmmm
->>>>>>> master
 dddd
 add test3.txt
 addaddadd
