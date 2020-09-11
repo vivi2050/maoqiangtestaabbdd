@@ -6,3 +6,44 @@ mmmm
 >>>>>>> master
 dddd
 add test3.txt
+<<<<<<< HEAD
+brbrbr
+2222
+=======
+mmmm
+>>>>>>> master
+dddd
+add test3.txt
+<<<<<<< HEAD
+brbrbr
+2222
+=======
+mmmm
+>>>>>>> master
+dddd
+add test3.txt
+<<<<<<< HEAD
+brbrbr
+2222
+=======
+mmmm
+>>>>>>> master
+dddd
+add test3.txt
+<<<<<<< HEAD
+brbrbr
+2222
+=======
+mmmm
+>>>>>>> master
+dddd
+add test3.txt
+<<<<<<< HEAD
+brbrbr
+2222
+=======
+mmmm
+>>>>>>> master
+dddd
+add test3.txt
+
