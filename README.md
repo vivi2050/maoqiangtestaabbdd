@@ -63,7 +63,12 @@
  maoqiangtest
  maoqiangtest
  maoqiangtest
- maoqiangtest
+/**
+ * Alipay.com Inc. Copyright (c) 2004-2018 All Rights Reserved.
+ */
+package com.alipay.antcode.search.components.sync.listener;
+
+import com.alipay.antcode.search.components.sync.service.SyncService;
  maoqiangtest
  maoqiangtest
  maoqiangtest
@@ -84,6 +89,7 @@
  maoqiangtest
  maoqiangtest
   maoqiangtest
+  /** * sync prs * * @param event */ @Subscribe public void listenerForSync(PullRequestsEsSyncEvent event) { if (!dynamicResources.esSyncEnabled()) { return; } syncService.syncPullRequest(event.getProject(), event.getPullRequest()); }
  maoqiangtest
  maoqiangtest
  maoqiangtest
