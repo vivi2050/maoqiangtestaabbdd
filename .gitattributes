@@ -1,5 +1,0 @@
-test.zip filter=lfs diff=lfs merge=lfs -text
-photo.zip filter=lfs diff=lfs merge=lfs -text
-51com.jpg filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.txt filter=lfs diff=lfs merge=lfs -text
