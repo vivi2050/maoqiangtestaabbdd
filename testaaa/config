@@ -1,0 +1,15 @@
+[branch "master"]
+	merge = refs/heads/master
+	remote = origin
+[core]
+	bare = false
+	filemode = true
+	ignorecase = true
+	logallrefupdates = true
+	precomposeunicode = true
+	repositoryformatversion = 0
+[push]
+	default = nothing
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = git@codeup.aliyun.com:5eede878c0c980661fa0557e/maoqianggroup/pythone-test.git
