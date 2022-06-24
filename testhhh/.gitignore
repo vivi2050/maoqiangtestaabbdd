@@ -1,0 +1,8 @@
+target
+Cargo.lock
+*.swp
+*.swo
+.directory
+*.rustfmt
+*.rsx
+main-doc
