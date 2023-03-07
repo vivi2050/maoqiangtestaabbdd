@@ -1,0 +1,7 @@
+c875a118de67f7e572fda3ac5a7b4cc206a94353		branch 'main' of github.com:hoodie/notify-rust
+c0ffeee91aa913a03ef5639b71996950b5ea01bf	not-for-merge	branch 'feature/hendriks/update-winrt-notification' of github.com:hoodie/notify-rust
+9e33898afdb5272b2a97168e19f58e51994a9d02	not-for-merge	branch 'feature/hendriks/zbus_server' of github.com:hoodie/notify-rust
+3508d7bf85137f8abd6abab63c0385ecc531d668	not-for-merge	branch 'feature/log' of github.com:hoodie/notify-rust
+9f9b2fc7f6cee0765be72fe49733cd4f796c2f12	not-for-merge	branch 'feature/notification-closeHandler' of github.com:hoodie/notify-rust
+ae24ea35ef598f8b6c1af21187cb724f03dc4f04	not-for-merge	branch 'feature/urgency-updates' of github.com:hoodie/notify-rust
+2ee6e86595b2e2063db4730bc4063475a45ae8ef	not-for-merge	branch 'renovate/mac-notification-sys-0.x' of github.com:hoodie/notify-rust

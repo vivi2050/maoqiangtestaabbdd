@@ -1,0 +1,65 @@
+[package]
+name = "notify-rust"
+version = "4.5.8"
+authors = ["Hendrik Sollich <hendrik@hoodie.de>"]
+description = "Show desktop notifications (linux, bsd, mac). Pure Rust dbus client and server."
+repository = "https://github.com/hoodie/notify-rust"
+documentation = "https://docs.rs/notify-rust/"
+edition = "2018"
+rust-version = "1.56.0"
+license = "MIT/Apache-2.0"
+keywords = ["desktop", "notification", "notify", "linux", "macos"]
+readme = "README.md"
+include = [
+  "README.md",
+  "History.md",
+  "CHANGELOG.md",
+  "LICENSE-*",
+  "Cargo.toml",
+  "src/**/*.rs",
+  "tests/*.rs"
+]
+
+[target.'cfg(all(unix, not(target_os = "macos")))'.dependencies]
+dbus = { version = "0.9", optional = true }
+lazy_static = { version = "1", optional = true }
+image = { version = "0.24", optional = true }
+zvariant = { version = "3", optional = true }
+zvariant_derive = { version = "3", optional = true }
+zbus = { version = "2", optional = true }
+serde = { version = "1", optional = true }
+
+[target.'cfg(target_os="macos")'.dependencies]
+mac-notification-sys = "0.5.0"
+chrono = { version = "0.4", optional = true}
+
+[target.'cfg(target_os="windows")'.dependencies]
+winrt-notification = "0.5"
+
+[features]
+default = ["z"]
+server = []
+d = ["dbus"]
+z = ["zbus", "zvariant", "zvariant_derive", "serde"]
+debug_namespace = []
+images = ["image", "lazy_static"]
+
+[dev-dependencies]
+color-backtrace = "0.5"
+ctor = "0.1"
+maplit = "1.0"
+
+[[example]]
+name = "images"
+path = "examples/images.rs"
+required-features = ["images"]
+
+[[example]]
+name = "hints_server"
+path = "examples/hints_server.rs"
+required-features = ["server"]
+
+[[example]]
+name = "schedule"
+path = "examples/schedule.rs"
+required-features = ["chrono"]

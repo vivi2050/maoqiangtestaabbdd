@@ -1,0 +1,3 @@
+[manifest "remote.ssh://codeup.aliyun.com"]
+	expire = 2021-11-19 05:09:33
+	sshinfo = {\"type\":\"agit\",\"version\":2}
